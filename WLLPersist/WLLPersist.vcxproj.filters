@@ -34,12 +34,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\Archive177909726\shellcode" />
-    <None Include="shellcode" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="WLLPersist.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shellcode" />
   </ItemGroup>
 </Project>
